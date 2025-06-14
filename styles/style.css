@@ -87,11 +87,11 @@ ol {
 .search-form__fieldset-title {
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 3px;
 }
 
 .search-form__textfield {
-  min-width: 225px;
-  margin-top: 3px;
+  min-width: 225px;  
   padding: 2px 0 2px 0;
   border: 0;
   border-top: 1px solid #fff;
@@ -103,9 +103,9 @@ ol {
   cursor: pointer;
 }
 
-.search-form__textfield:focus-visible {
+/* .search-form__textfield:focus-visible {
   outline: 2px solid #fff;
-}
+} */
 
 .search-form__textfield::placeholder {
   opacity: 0.7;
@@ -123,12 +123,13 @@ ol {
   display: flex;
   align-items: center;
   cursor: pointer;
+  /* background-color: #ff0; */
 }
 
-/* .search-form__label:has(:focus-visible) {
+ .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-} */
+} 
 .search-form__checkbox-list {
   margin-top: 5px;
   display: flex;
@@ -162,7 +163,7 @@ input[type="checkbox"]:active + .search-form__pseudo-checkbox:after {
 }
 
 .search-form__label:hover .search-form__label-text {
-  text-decoration: underline;
+  text-decoration: underline;  
 }
 
 .button {
